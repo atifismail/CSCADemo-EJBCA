@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_111" class="java.beans.XMLDecoder">
+ <object class="java.util.LinkedHashMap">
+  <void method="put">
+   <string>encodedvalidity</string>
+   <string>15y</string>
+  </void>
+  <void method="put">
+   <string>crlpublishers</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>signedby</string>
+   <int>1</int>
+  </void>
+  <void method="put">
+   <string>keyvalidators</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>description</string>
+   <string>CSCA Test</string>
+  </void>
+  <void method="put">
+   <string>revokationreason</string>
+   <int>-1</int>
+  </void>
+  <void method="put">
+   <string>certificateprofileid</string>
+   <int>3</int>
+  </void>
+  <void method="put">
+   <string>usenoconflictcertificatedata</string>
+   <boolean>false</boolean>
+  </void>
+  <void method="put">
+   <string>finishuser</string>
+   <boolean>true</boolean>
+  </void>
+  <void method="put">
+   <string>includeinhealthcheck</string>
+   <boolean>true</boolean>
+  </void>
+  <void method="put">
+   <string>doEnforceUniquePublicKeys</string>
+   <boolean>true</boolean>
+  </void>
+  <void method="put">
+   <string>doEnforceUniqueDistinguishedName</string>
+   <boolean>true</boolean>
+  </void>
+  <void method="put">
+   <string>doEnforceUniqueSubjectDNSerialnumber</string>
+   <boolean>false</boolean>
+  </void>
+  <void method="put">
+   <string>useCertreqHistory</string>
+   <boolean>false</boolean>
+  </void>
+  <void method="put">
+   <string>useUserStorage</string>
+   <boolean>true</boolean>
+  </void>
+  <void method="put">
+   <string>useCertificateStorage</string>
+   <boolean>true</boolean>
+  </void>
+  <void method="put">
+   <string>acceptRevocationNonExistingEntry</string>
+   <boolean>false</boolean>
+  </void>
+  <void method="put">
+   <string>keepExpiredCertsOnCRL</string>
+   <boolean>false</boolean>
+  </void>
+  <void method="put">
+   <string>crlperiod</string>
+   <long>86400000</long>
+  </void>
+  <void method="put">
+   <string>crlIssueInterval</string>
+   <long>0</long>
+  </void>
+  <void method="put">
+   <string>crlOverlapTime</string>
+   <long>36000000</long>
+  </void>
+  <void method="put">
+   <string>deltacrlperiod</string>
+   <long>36000000</long>
+  </void>
+  <void method="put">
+   <string>extendedcaservices</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>approvals</string>
+   <object class="java.util.LinkedHashMap"/>
+  </void>
+  <void method="put">
+   <string>policies</string>
+   <null/>
+  </void>
+  <void method="put">
+   <string>subjectaltname</string>
+   <string></string>
+  </void>
+  <void method="put">
+   <string>catype</string>
+   <int>1</int>
+  </void>
+  <void method="put">
+   <string>version</string>
+   <float>25.0</float>
+  </void>
+  <void method="put">
+   <string>useauthoritykeyidentifier</string>
+   <boolean>true</boolean>
+  </void>
+  <void method="put">
+   <string>authoritykeyidentifiercritical</string>
+   <boolean>false</boolean>
+  </void>
+  <void method="put">
+   <string>usecrlnumber</string>
+   <boolean>true</boolean>
+  </void>
+  <void method="put">
+   <string>crlnumbercritical</string>
+   <boolean>false</boolean>
+  </void>
+  <void method="put">
+   <string>defaultcrldistpoint</string>
+   <string>http://www.demo.org/bar/bar.crl;http://www.demo.org/foo/foo.crl</string>
+  </void>
+  <void method="put">
+   <string>defaultcrlissuer</string>
+   <string></string>
+  </void>
+  <void method="put">
+   <string>cadefinedfreshestcrl</string>
+   <string></string>
+  </void>
+  <void method="put">
+   <string>defaultocspservicelocator</string>
+   <string>http://ca-defined.ocsp.service.locator.url.sw</string>
+  </void>
+  <void method="put">
+   <string>useutf8policytext</string>
+   <boolean>false</boolean>
+  </void>
+  <void method="put">
+   <string>useprintablestringsubjectdn</string>
+   <boolean>false</boolean>
+  </void>
+  <void method="put">
+   <string>useldapdnorder</string>
+   <boolean>true</boolean>
+  </void>
+  <void method="put">
+   <string>usecrldistributionpointoncrl</string>
+   <boolean>true</boolean>
+  </void>
+  <void method="put">
+   <string>crldistributionpointoncrlcritical</string>
+   <boolean>false</boolean>
+  </void>
+  <void method="put">
+   <string>cmpraauthsecret</string>
+   <string></string>
+  </void>
+  <void method="put">
+   <string>authorityinformationaccess</string>
+   <object class="java.util.ArrayList" id="ArrayList0">
+    <void method="add">
+     <string>http://example.com/0</string>
+    </void>
+    <void method="add">
+     <string>http://example.com/1</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>certificateaiadefaultcaissueruri</string>
+   <object idref="ArrayList0"/>
+  </void>
+  <void method="put">
+   <string>nameconstraintspermitted</string>
+   <null/>
+  </void>
+  <void method="put">
+   <string>nameconstraintsexcluded</string>
+   <null/>
+  </void>
+  <void method="put">
+   <string>serialnumberoctetsize</string>
+   <int>20</int>
+  </void>
+  <void method="put">
+   <string>usepartitionedcrl</string>
+   <boolean>false</boolean>
+  </void>
+  <void method="put">
+   <string>crlpartitions</string>
+   <int>0</int>
+  </void>
+  <void method="put">
+   <string>suspendedcrlpartitions</string>
+   <int>0</int>
+  </void>
+  <void method="put">
+   <string>catoken</string>
+   <object class="java.util.LinkedHashMap">
+    <void method="put">
+     <string>version</string>
+     <float>8.0</float>
+    </void>
+    <void method="put">
+     <string>cryptotokenid</string>
+     <string>17</string>
+    </void>
+    <void method="put">
+     <string>propertydata</string>
+     <string>defaultKey=encryptKey&#13;
+certSignKey=signKey&#13;
+crlSignKey=signKey&#13;
+explicit.ecc.publickey.parameters=true&#13;
+</string>
+    </void>
+    <void method="put">
+     <string>sequence</string>
+     <string>00000</string>
+    </void>
+    <void method="put">
+     <string>sequenceformat</string>
+     <int>1</int>
+    </void>
+    <void method="put">
+     <string>signaturealgorithm</string>
+     <string>SHA256WithRSA</string>
+    </void>
+    <void method="put">
+     <string>encryptionalgorithm</string>
+     <string>SHA256WithRSA</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>externalcdp</string>
+   <null/>
+  </void>
+  <void method="put">
+   <string>certificatechain</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <string>MIICpzCCAhCgAwIBAgIQJMLegC3165pf/EIVRvOWNTANBgkqhkiG9w0BAQsFADA/
+MREwDwYDVQQDDAhDU0NBVGVzdDENMAsGA1UECwwEZGVtbzEOMAwGA1UECgwFZHJl
+YW0xCzAJBgNVBAYTAktSMB4XDTE5MTAzMTAyNDgwMFoXDTM0MTAyNzAyNTgwMFow
+PzERMA8GA1UEAwwIQ1NDQVRlc3QxDTALBgNVBAsMBGRlbW8xDjAMBgNVBAoMBWRy
+ZWFtMQswCQYDVQQGEwJLUjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsjpa
+YeRvUixdDkMyW5SFBlyrttsNiOMrts6w0y67dASFRY4eThzf4xeCnj14Xy3mbQ8n
+ASCRn0bXWaZOlEw1eWYc+FBxSvL9IIj13JGxg4VxgC99TXthIZ2ilqiuf1U2KqKI
+Ns6iIGNWYLC4yPPNWWI0u+XMsEhzqj4wHAX4brcCAwEAAaOBozCBoDAPBgNVHRMB
+Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjArBgNVHRAEJDAigA8yMDE5MTAzMTAy
+NTgwMFqBDzIwMjQxMDMxMDI1ODAwWjAdBgNVHQ4EFgQUVtfQ9NuCQAbg3IZBKd3W
+mRs2xGcwHwYDVR0jBBgwFoAUVtfQ9NuCQAbg3IZBKd3WmRs2xGcwEAYDVR0gBAkw
+BzAFBgMpAQEwDQYJKoZIhvcNAQELBQADgYEAJ+vV/g/W6N8g5IXQf1s0IMuXGdK6
+097H21YRy2kAh9JvOYtISd19maKr86KnH3sQiUGhLfGoqcQqnEigdQ/e16W6OPaS
+eAy2Zj/r+yjYebtTFVET13O4NJ4MZYxN3Fw9Hsf4011OciI++qz9xTaY6RV6xFkM
+cI+RNGwobRt+T+Q=</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

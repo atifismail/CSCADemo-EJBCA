@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ejbca.test</groupId>
+	<artifactId>ejbca-csca-demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ejbcalib</name>
+
+	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.ejbca/ejbca-util -->
+		<!-- <dependency> <groupId>org.ejbca</groupId> <artifactId>ejbca-util</artifactId> 
+			<version>3.6b1</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.ejbca.cvc/cert-cvc -->
+		<!-- <dependency> <groupId>org.ejbca.cvc</groupId> <artifactId>cert-cvc</artifactId> 
+			<version>1.4.6</version> </dependency> -->
+
+
+		<!-- https://mvnrepository.com/artifact/org.ejbca.cesecore/cesecore-common -->
+		<!-- <dependency> <groupId>org.ejbca.cesecore</groupId> <artifactId>cesecore-common</artifactId> 
+			<version>7.0.0.1</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.ejbca.cesecore/cesecore-entity -->
+		<!-- <dependency> <groupId>org.ejbca.cesecore</groupId> <artifactId>cesecore-entity</artifactId> 
+			<version>7.0.0.1</version> </dependency> -->
+
+
+		<!-- https://mvnrepository.com/artifact/org.ejbca.cesecore/cesecore-interfaces -->
+		<!-- <dependency> <groupId>org.ejbca.cesecore</groupId> <artifactId>cesecore-interfaces</artifactId> 
+			<version>7.0.0.1</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.ejbca.cesecore/cesecore-ejb -->
+		<!-- <dependency> <groupId>org.ejbca.cesecore</groupId> <artifactId>cesecore-ejb</artifactId> 
+			<version>7.0.0.1</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.ejbca.cesecore/cesecore -->
+		<!-- <dependency> <groupId>org.ejbca.cesecore</groupId> <artifactId>cesecore</artifactId> 
+			<version>7.0.0.1</version> <type>pom</type> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk15on</artifactId>
+			<version>1.64</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcpkix-jdk15on -->
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcpkix-jdk15on</artifactId>
+			<version>1.63</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<!-- <dependency> <groupId>log4j</groupId> <artifactId>log4j</artifactId> 
+			<version>1.2.17</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+			<version>1.6</version>
+		</dependency>
+
+
+
+	</dependencies>
+
+</project>
